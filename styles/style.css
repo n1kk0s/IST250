@@ -1,3 +1,48 @@
+/*
+COLOR CODES
+Dark blue: #002A4A
+Medium Blue: #17607D
+Light Orange/Pink: #FFF1CE
+Medium Orange: #FF9311
+Dark Orange: #D64700
+*/
+
+.construction {
+    background-color: #17607D;
+}
+
+.construction h2, .construction h3 {
+    font-weight: bold;
+    text-align: center;
+    color: #FF9311
+}
+
+html {
+    font-family: Azo Sans, Helvetica, Verdana, Sans-serif;
+}
+
 body {
-    font-family: Helvetica, Azo Sans, Sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #002A4A;
+    margin: 20;
+    padding: 0;
+
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF9311;
 }
