@@ -8,17 +8,18 @@ Dark Orange: #D64700
 */
 
 .construction {
-    background-color: #17607D;
+    background-color: #f5f5f5;
 }
 
 .construction h2, .construction h3 {
     font-weight: bold;
     text-align: center;
-    color: #FF9311
+    color: #090909;
 }
 
 html {
     font-family: Azo Sans, Helvetica, Verdana, Sans-serif;
+    padding: 20px 100px;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 }
 
 header {
-    background-color: #002A4A;
+    background-color: #f5f5f5;
     margin: 20;
     padding: 0;
 
@@ -44,5 +45,9 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: #FF9311;
+    color: #010101;
+}
+
+table td {
+    padding: 5px 10px;
 }
