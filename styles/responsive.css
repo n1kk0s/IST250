@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1400px) {
+    /* For smaller desktop monitors */
+
+    .nav li {
+        display: inline-block;
+        color: white;
+        font-family: "Rough", sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .nav li a {
+        font-family: "Rough", sans-serif;
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+    /* For most phone screens */
+
+    .sideImage {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .nav li {
+        display: inline-block;
+        color: white;
+        font-family: "Rough", sans-serif;
+        font-size: 1rem;
+    }
+
+    .nav li a {
+        font-family: "Rough", sans-serif;
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .nav ul {
+        margin: auto;
+    }
+
+    .page {
+        width: 100%;
+    }
+
+    .content {
+        width: 90%;
+    }
+}

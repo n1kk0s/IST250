@@ -3,8 +3,13 @@
 <head>
     <title>Sense8</title>
     <link rel="stylesheet" type="text/css" href="styles\style.css" />
+    <link rel="stylesheet" type="text/css" href="styles\responsive.css" />
+    <link rel="stylesheet" type="text/css" href="styles\tabs.css" />
+    <link rel="icon" type="image/x-icon" href="icons/8.ico"/>
 </head>
 <body>
+
+    <script src="scripts/script.js"></script>
 
     <img  class="sideImage" src="images/will.jpg" alt="Will Gorski"> <!-- Side Image -->
 
@@ -12,7 +17,7 @@
         <div class="nav"> <!-- Navigation Links -->
             <ul>
                 <li><a href="index.html">Home</a> | </li>
-                <li><a href="will.html">Will</a> | </li>
+                <li><a href="will.html" class="active">Will</a> | </li>
                 <li><a href="riley.html">Riley</a> | </li>
                 <li><a href="lito.html">Lito</a> | </li>
                 <li><a href="nomi.html">Nomi</a> | </li>
@@ -27,7 +32,7 @@
             <h1 class="header">Welcome Sensate</h1>
 
             <div class="tab"> <!-- Start of the tabbed content -->
-                <button class="tablinks" onclick="switchTabs(event, 'Biography')">Biography</button>
+                <button class="tablinks active" onclick="switchTabs(event, 'Biography')">Biography</button>
                 <button class="tablinks" onclick="switchTabs(event, 'Skills')">Skills</button>
                 <button class="tablinks" onclick="switchTabs(event, 'InnerCircle')">Inner Circle</button>
             </div>
@@ -37,7 +42,7 @@
                 <p>Bio goes here.</p>
             </div>
 
-            <div id="Skills" class="tabcontent">
+            <div id="Skills" class="tabcontent" style="display: none;">
                 <h3>Skills</h3>
                 <ul>
                     <li>Skills</li>
@@ -46,7 +51,7 @@
                 </ul>
             </div>
 
-            <div id="InnerCircle" class="tabcontent">
+            <div id="InnerCircle" class="tabcontent" style="display: none;">
                 <h3>Inner Circle</h3>
                 <table>
                     <tr>

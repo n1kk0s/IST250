@@ -23,6 +23,12 @@ body {
     padding-left: 3rem;
 }
 
+.content {
+    float: left;
+    width: 60%;
+    height: 75%;
+}
+
 /* Nav Styling */
 .nav {
     padding: 3rem, auto;
@@ -44,6 +50,10 @@ body {
 
 .nav li a:hover {
     color: red;
+}
+
+.nav .active {
+    color: darkred;
 }
 
 /* Image Styling */
