@@ -5,7 +5,7 @@ div.tab {
     border: none;
     background-color: #101010;
     width: 20%;
-    height: 500px;
+    height: 400px;
 }
 
 /* Style the buttons inside the tab */
@@ -36,8 +36,13 @@ div.tab button.active {
 /* Style the tab content */
 .tabcontent {
     float: left;
-    padding: 0px 12px;
+    padding-left: 40px;
     border: none;
     width: 66%;
-    height: 500px;
+    height: 400px;
+    color: white;
+}
+
+.tabcontent h2 {
+    padding-bottom: 5px;
 }

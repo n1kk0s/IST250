@@ -19,7 +19,7 @@ body {
 
 .page {
     height: 100%;
-    padding-top: 3rem;
+    padding-top: 1.75rem;
     padding-left: 3rem;
 }
 
@@ -29,9 +29,18 @@ body {
     height: 75%;
 }
 
+.header {
+    font-family: Rough;
+    font-size: 3rem;
+    color: red;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* Nav Styling */
 .nav {
-    padding: 3rem, auto;
+    padding: 1.75rem, auto;
 }
 
 .nav li {
