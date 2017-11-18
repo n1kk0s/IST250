@@ -38,6 +38,11 @@ body {
     padding-bottom: 30px;
 }
 
+.actorLink {
+    text-decoration: none;
+    color: darkred;
+}
+
 /* Nav Styling */
 .nav {
     padding: 1.75rem, auto;
