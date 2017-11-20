@@ -1,4 +1,6 @@
-/*Styling for the JS tabs on each page */
+/*Styling for the JS tabs on each page
+  Includes styling for tags that are contained
+  within the JS tabs as well */
 
 div.tab {
     float: left;
@@ -43,6 +45,29 @@ div.tab button.active {
     color: white;
 }
 
+/*Styling for tags under the tabs */
+
+/* Put spacing around headings */
 .tabcontent h2 {
-    padding-bottom: 5px;
+    margin-bottom: 1rem;
+    padding-left:1rem;
+}
+
+.tabcontent ul {
+    list-style-position: inside;
+}
+.tabcontent li {
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}
+
+.tabcontent table {
+    width: 100%;
+    height: auto;
+}
+
+.tabcontent td {
+    width: 25%;
+    padding-bottom: 1rem;
+    text-align: center;
 }

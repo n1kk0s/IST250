@@ -17,6 +17,10 @@ body {
     font-family: sans-serif;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 .page {
     height: 100%;
     padding-top: 1.75rem;
@@ -45,7 +49,8 @@ body {
 
 /* Nav Styling */
 .nav {
-    padding: 1.75rem, auto;
+    padding-top: 1.75rem;
+    text-align: center;
 }
 
 .nav li {
@@ -75,4 +80,12 @@ body {
     float: right;
     height: 100vh;
     width: auto;
+    border-left: 5px solid white;
+}
+
+.characterIcon {
+    width: 90%;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 90%;
 }
