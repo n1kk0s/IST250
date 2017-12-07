@@ -98,3 +98,21 @@ p {
     border: 3px solid white;
     border-radius: 90%;
 }
+
+/* Form Styling */
+.text {
+    width: 5rem;
+    height: 1.2rem;
+}
+
+.label {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.button {
+    width: 4rem;
+    height: 1.5rem;
+    margin: auto;
+    font-size: 1.5rem;
+}
