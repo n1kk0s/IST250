@@ -1,5 +1,14 @@
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1650px) {
     /* For smaller desktop monitors */
+
+    .sideImage{
+        display: none;
+    }
+
+    .content {
+        width: 90%;
+        margin: auto;
+    }
 
     .nav li {
         display: inline-block;
@@ -17,13 +26,14 @@
 
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 500px) {
     /* For most phone screens */
 
     .sideImage {
-        width: 100%;
+        width: 60%;
         height: auto;
-        display: block;
+        display: none;
+        margin: auto;
     }
 
     .nav li {
@@ -50,5 +60,6 @@
 
     .content {
         width: 90%;
+        margin: auto;
     }
 }

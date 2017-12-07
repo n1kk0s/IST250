@@ -34,7 +34,7 @@
 
             <div class="tab"> <!-- Start of the tabbed content -->
                 <button class="tablinks active" onclick="switchTabs(event, 'Description')">Description</button>
-                <button class="tablinks" onclick="switchTabs(event, 'Info')">Show Info</button>
+                <button class="tablinks" onclick="switchTabs(event, 'Copyright')">Copyright</button>
                 <button class="tablinks" onclick="switchTabs(event, 'Form')">Contact</button>
             </div>
 
@@ -43,14 +43,29 @@
                 <p>Eight strangers around the globe find themselves connected -- first by a violent vision, then by their shared ability to connect with one another's thoughts and actions, and finally by the urgent need to find out what happened and why. Their need to know goes beyond simple curiosity -- as they pursue answers, a mysterious organization hunts them down, intent on destroying them.</p>
             </div>
 
-            <div id='Info' class="tabcontent" style="display: none;">
-                <h2>Information about Sense8</h2>
-                <p>Information will go here.</p>
+            <div id='Copyright' class="tabcontent" style="display: none;">
+                <h2>Copyright - Sense8</h2>
+                <p>Sense8 is a Netflix original series released in 2015 directed by the Wachowski sisters. I claim no ownership of any content on this site. All images and information are the sole property of Netflix. Information found here is only being used for educational purposes.</p>
             </div>
 
             <div id='Form' class="tabcontent" style="display: none;">
-                <h2>Contact Me</h2>
-                <p>Form will go here</p>
+                <h2>Submit Some Stuff</h2>
+                <p>Have a suggestion for a show I should watch? Want to leave a comment about the site? Just want to gush about how much you love this show? Just click below and you'll be taken to a form where you can gush to your heart's content!</p>
+
+                <form method="post"> <!-- action="submitMessage.php"  Honestly, I don't know why the PHP won't work -->
+
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+
+                    <label for="comments">Message</label>
+                    <textarea name="comments" id="comments"></textarea>
+
+                    <input type="submit" name="send" value="Submit">
+
+                </form>
+
+                <!-- <a href="form.html">Submit a Comment</a> NOT DOING THIS -->
+
             </div>
         </div>
     </div>

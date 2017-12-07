@@ -17,8 +17,17 @@ body {
     font-family: sans-serif;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
 p {
-    line-height: 1.5rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .page {
@@ -35,7 +44,7 @@ p {
 
 .header {
     font-family: Rough;
-    font-size: 3rem;
+    font-size: 5rem;
     color: red;
     text-align: center;
     padding-top: 30px;
