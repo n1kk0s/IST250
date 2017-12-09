@@ -103,19 +103,50 @@ p {
 }
 
 /* Form Styling */
-.text {
-    width: 5rem;
-    height: 1.2rem;
+form {
+    float: right;
+    display: inline;
 }
 
-.label {
-    line-height: 2.5rem;
-    font-size: 1.5rem;
+.name {
+   font-weight: bold;
+   width: 200px;
+   margin: 10px auto;
+   height: 35px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #F6F7F9;
+   color: darkred ;
+   font-size: 14px;
+}
+
+.message {
+    font-weight: bold;
+    width: 200px;
+    margin: auto 10px;
+    height: 80px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #F6F7F9;
+    color: darkred;
+    font-size: 14px;
 }
 
 .button {
-    width: 4rem;
-    height: 1.5rem;
-    margin: auto;
-    font-size: 1.5rem;
+    font-weight: bold;
+    width: 200px;
+    margin: auto 10px;
+    height: 45px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: darkred;
+    color: white;
+    font-size: 14px;
+    text-align: center;
 }

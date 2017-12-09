@@ -5,11 +5,13 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
     <link rel="stylesheet" type="text/css" href="styles/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="styles/modal.css" />
     <link rel="icon" type="image/x-icon" href="icons/8.ico"/>
 </head>
 <body>
 
     <script src="scripts/script.js"></script> <!-- Enables switching between tabs -->
+    <script src="scripts/modal.js"></script> <!-- Enables modal on form submission -->
 
     <img  class="sideImage" src="images/sense8.jpg" alt="Sense8 Cover Art"> <!-- Side Image -->
 
@@ -50,30 +52,22 @@
 
             <div id='Form' class="tabcontent" style="display: none;">
                 <h2>Submit Some Stuff</h2>
-                <p>Have some questions or comments? Submit them below!</p>
+                <p>Have some questions or comments? Submit them here!</p>
 
-                <table>
-                    <tr>
-                        <td>Name</td>
-                        <td>Message</td>
-                    </tr>
-                    <tr>
-                        <td><input type="text"></td>
-                        <td><textarea></textarea></td>
-                    </tr>
-                </table>
+                 <!--action="submitMessage.php"  Honestly, I can't get the PHP to work -->
+                    <input class="name" type="text" name="name" id="name" placeholder="Name">
+                    <br>
+                    <textarea class="message" name="comments" id="comments" placeholder="Comments"></textarea>
+                    <br>
+                    <button class="button" id="myBtn">Submit</button>
 
-                <!-- <form method="post"> action="submitMessage.php"  Honestly, I can't get the PHP won't work -->
-<!--
-                    <label class="label" for="name">Name</label><br>
-                    <input class="text" type="text" name="name" id="name">
-                    <br><br>
-                    <label class="label" for="comments">Message</label><br>
-                    <textarea class="text" name="comments" id="comments"></textarea>
-                    <br><br>
-                    <input class="button" type="submit" name="send" value="Submit">
-
-                </form> -->
+                 <!-- Modal stuff  (this will also not work for some reason. Might be because of nested JS or something.)-->
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Thanks for your submission!</p>
+                    </div>
+                </div>
 
                 <!-- <a href="form.html">Submit a Comment</a> NOT DOING THIS -->
 
