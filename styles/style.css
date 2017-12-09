@@ -85,6 +85,9 @@ p {
 }
 
 /* Image Styling */
+.smallImg {
+    display: none;
+}
 .sideImage {
     float: right;
     height: 100vh;

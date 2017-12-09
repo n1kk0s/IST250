@@ -50,10 +50,21 @@
 
             <div id='Form' class="tabcontent" style="display: none;">
                 <h2>Submit Some Stuff</h2>
-                <p>Have a suggestion for a show I should watch? Want to leave a comment about the site? Just want to gush about how much you love this show? Just click below and you'll be taken to a form where you can gush to your heart's content!</p>
+                <p>Have some questions or comments? Submit them below!</p>
 
-                <form method="post"> <!-- action="submitMessage.php"  Honestly, I don't know why the PHP won't work -->
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>Message</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                </table>
 
+                <!-- <form method="post"> action="submitMessage.php"  Honestly, I can't get the PHP won't work -->
+<!--
                     <label class="label" for="name">Name</label><br>
                     <input class="text" type="text" name="name" id="name">
                     <br><br>
@@ -62,7 +73,7 @@
                     <br><br>
                     <input class="button" type="submit" name="send" value="Submit">
 
-                </form>
+                </form> -->
 
                 <!-- <a href="form.html">Submit a Comment</a> NOT DOING THIS -->
 
