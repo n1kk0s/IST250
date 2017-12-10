@@ -17,24 +17,24 @@ function switchTabs(evt, tabName) {
     evt.currentTarget.className += " active";
 }
 
-function validate() {
-    if (document.getElementById("name").value == "" || document.getElementById("message").value == "")
-    {
+function validate() { // Literally, I have no clue why this won't work. It won't run the else.
+    if (document.getElementById("name").value == "") {
         return false;
     }
-    else
-    {
+    else if (document.getElementById("message").value == "") {
+        return false;
+    }
+    else {
         return true;
     }
 }
 
 function thanks() {
-    if (validate())
-    {
+    // if (validate()) {
+    //     alert("One of the required fields is empty!");
+    // }
+    // else {
         alert("Thanks for the submission!");
-    }
-    else
-    {
-        alert("One of the required fields is empty!");
-    }
+        location.reload();
+    // }
 }

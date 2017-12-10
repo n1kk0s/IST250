@@ -11,7 +11,7 @@
 <body>
 
     <script src="scripts/script.js"></script> <!-- Enables switching between tabs -->
-    <!-- <script src="scripts/modal.js"></script> Enables modal on form submission -->
+    <!-- <script src="scripts/modal.js"></script> Enables modal on form submission. MODAL ISN'T WORKING -->
 
     <img  class="sideImage" src="images/sense8.jpg" alt="Sense8 Cover Art"> <!-- Side Image -->
 
@@ -59,18 +59,16 @@
                     <br>
                     <textarea class="message" name="comments" id="comments" placeholder="Comments"></textarea>
                     <br>
-                    <button class="button" id="myBtn" onclick="thanks()">Submit</button>
+                    <button class="button" id="myBtn" onclick="thanks()">Submit</button> <!-- Form validation doesn't work as well as my PHP. I'm having trouble -->
                 </div>
 
-                 <!-- Modal stuff  (this will also not work for some reason. Might be because of nested JS or something.)-->
+                <!-- Modal stuff  (this will also not work for some reason. Might be because of nested JS or something.)-->
                 <!-- <div id="myModal" class="modal">
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <p>Thanks for your submission!</p>
                     </div>
                 </div> -->
-
-                <!-- <a href="form.html">Submit a Comment</a> NOT DOING THIS -->
 
             </div>
         </div>

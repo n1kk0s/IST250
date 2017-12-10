@@ -1,3 +1,5 @@
+// From W3Schools, but not even implemented, so
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
