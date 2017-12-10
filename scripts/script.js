@@ -16,3 +16,25 @@ function switchTabs(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+function validate() {
+    if (document.getElementById("name").value == "" || document.getElementById("message").value == "")
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
+
+function thanks() {
+    if (validate())
+    {
+        alert("Thanks for the submission!");
+    }
+    else
+    {
+        alert("One of the required fields is empty!");
+    }
+}
