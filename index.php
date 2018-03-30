@@ -1,3 +1,18 @@
+<?php
+if(isset($_POST['submit'])){
+    $to = "nweld568@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $subject = "Sense8 Form";
+    $comments = $_POST['comments'];
+
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $namename . ".";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,12 +69,15 @@
                 <h2>Submit Some Stuff</h2>
                 <p>Questions or comments? Submit them here!</p>
                 <div class="form">
-                 <!--action="submitMessage.php"  Honestly, I can't get the PHP to work -->
+                 <form action="" method="post">
                     <input class="name" type="text" name="name" id="name" placeholder="Name">
+                    <br>
+                    <input class="emai" type="text" name="email" id="email" placeholder="Email Address">
                     <br>
                     <textarea class="message" name="comments" id="comments" placeholder="Comments"></textarea>
                     <br>
-                    <button class="button" id="myBtn" onclick="thanks()">Submit</button> <!-- Form validation doesn't work as well as my PHP. I'm having trouble -->
+                    <input type="submit" name="submit" value="Submit" class="button" id="myBtn"> <!-- Form validation doesn't work as well as my PHP. I'm having trouble -->
+                  </form>
                 </div>
 
                 <!-- Modal stuff  (this will also not work for some reason. Might be because of nested JS or something.)-->
